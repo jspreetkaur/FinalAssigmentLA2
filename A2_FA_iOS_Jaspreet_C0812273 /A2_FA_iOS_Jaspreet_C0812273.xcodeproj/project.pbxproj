@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E249518265E7E4400F8F4D1 /* ProviderItemsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E249517265E7E4400F8F4D1 /* ProviderItemsListVC.swift */; };
+		5E24951B265E7F9A00F8F4D1 /* ProviderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E24951A265E7F9A00F8F4D1 /* ProviderCell.swift */; };
 		5EC70525265D45070083F59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC70524265D45070083F59F /* AppDelegate.swift */; };
 		5EC70527265D45070083F59F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC70526265D45070083F59F /* SceneDelegate.swift */; };
 		5EC7052C265D45070083F59F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7052A265D45070083F59F /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E249517265E7E4400F8F4D1 /* ProviderItemsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderItemsListVC.swift; sourceTree = "<group>"; };
+		5E24951A265E7F9A00F8F4D1 /* ProviderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderCell.swift; sourceTree = "<group>"; };
 		5EC70521265D45070083F59F /* A2_FA_iOS_Jaspreet_C0812273.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_iOS_Jaspreet_C0812273.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC70524265D45070083F59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC70526265D45070083F59F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E24951E265E7FA000F8F4D1 /* Provider list */ = {
+			isa = PBXGroup;
+			children = (
+				5E249517265E7E4400F8F4D1 /* ProviderItemsListVC.swift */,
+				5E24951A265E7F9A00F8F4D1 /* ProviderCell.swift */,
+			);
+			path = "Provider list";
+			sourceTree = "<group>";
+		};
 		5EC70518265D45070083F59F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,7 @@
 			children = (
 				5EC7053E265D55570083F59F /* ItemVC.swift */,
 				5EC70541265D55690083F59F /* ItemCell.swift */,
+				5E24951E265E7FA000F8F4D1 /* Provider list */,
 			);
 			path = "Items List";
 			sourceTree = "<group>";
@@ -181,6 +195,8 @@
 				5EC70527265D45070083F59F /* SceneDelegate.swift in Sources */,
 				5EC7054C265D580D0083F59F /* Product+CoreDataClass.swift in Sources */,
 				5EC7053F265D55570083F59F /* ItemVC.swift in Sources */,
+				5E249518265E7E4400F8F4D1 /* ProviderItemsListVC.swift in Sources */,
+				5E24951B265E7F9A00F8F4D1 /* ProviderCell.swift in Sources */,
 				5EC70542265D55690083F59F /* ItemCell.swift in Sources */,
 				5EC7054D265D580D0083F59F /* Product+CoreDataProperties.swift in Sources */,
 				5EC70548265D56610083F59F /* AddNewVC.swift in Sources */,
